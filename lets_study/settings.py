@@ -54,6 +54,8 @@ MIDDLEWARE = [
 CSRF_TRUSTED_ORIGINS = [
     'https://localhost:8000',
 ]
+CSRF_COOKIE_SECURE = True  
+SESSION_COOKIE_SECURE = True 
 
 ROOT_URLCONF = "lets_study.urls"
 
